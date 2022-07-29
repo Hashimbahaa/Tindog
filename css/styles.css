@@ -1,0 +1,194 @@
+/* Body Section */
+body {
+  font-family: "Montserrat";
+  text-align: center;
+}
+
+#title, #Navbar-Section, #cta, a {
+  background-color: #ff4c68;
+  color: #fff;
+}
+
+#features, #cta, #footer, a {
+  padding: 7% 15%;
+}
+
+/* Navbar Section */
+.navbar-brand {
+  font-family: 'Ubuntu';
+  font-size: 2.5rem;
+  font-weight: bold;
+  padding-left: 0;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.container-fluid {
+  padding: 3% 15% 7%;
+}
+
+/* Title Section  */
+#title {
+  text-align: left;
+}
+
+.Heading-Title {
+  font-family: 'Montserrat, sans-serif';
+  font-size: 3.8rem;
+  line-height: 1.5;
+  font-weight: 900;
+}
+
+.btn {
+  margin: 5% 3% 5% 0;
+}
+
+.img-dog {
+  width: 25%;
+  transform: rotate(25deg);
+  position: absolute;
+  left: 60%
+}
+
+/* Fearures Section */
+#features {
+  background: #fff;
+  position: relative;
+  z-index: 1;
+}
+
+.features-box {
+  padding: 4.5%;
+}
+
+.icon {
+  color: #ef8192;
+  margin-bottom: 1rem;
+}
+
+.icon:hover {
+  color: #44fc68;
+}
+
+.Feature-Heading {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.Future-Describtion {
+  color: #8f8f8f;
+}
+
+/* Testimonials section */
+#testimonials {
+  background-color: #ef8192;
+  color: #fff;
+}
+
+.the-testimonial-img {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+.testimonial-text {
+  font-family: 'Montserrat-Bold';
+  font-size: 3.5rem;
+  line-height: 1.5;
+  font-weight: 900;
+}
+
+/* Press Section */
+#press {
+  background-color: #ef8192;
+  padding-bottom: 26.278px;
+}
+
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+/* pricing section */
+#pricing {
+  padding: 100px;
+}
+
+.pricing-coulmn {
+  padding: 3% 2%;
+}
+
+.Price {
+  font-family: 'Montserrat-Bold';
+  font-size: 3.5rem;
+  line-height: 1.5;
+  font-weight: 900;
+}
+
+.Card-plan {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.Describtion {
+  color: #8f8f8f;
+}
+
+/* cta section */
+#cta {}
+
+.Download-Heading-Section {
+  font-family: 'Montserrat, sans-serif';
+  font-size: 3.8rem;
+  line-height: 1.5;
+  font-weight: 900;
+}
+
+/* footer */
+#footer {
+  background: #fff;
+}
+
+.Contact-icon {
+  padding: 1% 3% 3%;
+}
+
+.Copyright {
+  color: #8f8f8f;
+}
+
+/* Contact icon hovers */
+.fa-facebook:hover {
+  color: #4267B2;
+}
+
+.fa-twitter:hover {
+  color: #1DA1F2
+}
+
+.fa-envelope:hover {
+  color: green;
+}
+
+.fa-instagram:hover {
+  color: #d6249f;
+}
+
+/* phone tablet media */
+@media (max-width: 1028px) {
+  #title {
+    text-align: center;
+  }
+
+  .img-dog {
+    position: static;
+    transform: rotate(0);
+    width: 60%;
+  }
+}
